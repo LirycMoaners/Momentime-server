@@ -4,6 +4,7 @@
   "description": "Serveur web api pour le site photo Momentime",
   "main": "index.js",
   "scripts": {
+    "start": "node web-api.server.js",
     "test": "test"
   },
   "keywords": [
