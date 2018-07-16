@@ -24,8 +24,10 @@ app.use(cors(corsOptions));
 // ROUTES
 var categoryRoutes = require('./api/routes/category.routes'); //importing route
 var pictureRoutes = require('./api/routes/picture.routes');
+var emailRoutes = require('./api/routes/email.routes');
 categoryRoutes(app); //register the route
 pictureRoutes(app);
+emailRoutes(app);
 
 // PICTURES
 app.use(express.static('pictures'));
